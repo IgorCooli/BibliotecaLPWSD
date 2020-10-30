@@ -1,0 +1,83 @@
+05-Oct-2020 22:30:58.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.58
+05-Oct-2020 22:30:58.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 21:45:33 UTC
+05-Oct-2020 22:30:58.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.58.0
+05-Oct-2020 22:30:58.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Oct-2020 22:30:58.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-47-generic
+05-Oct-2020 22:30:58.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Oct-2020 22:30:58.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+05-Oct-2020 22:30:58.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+05-Oct-2020 22:30:58.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+05-Oct-2020 22:30:58.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+05-Oct-2020 22:30:58.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+05-Oct-2020 22:30:58.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Oct-2020 22:30:58.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Oct-2020 22:30:58.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Oct-2020 22:30:58.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/logging.properties
+05-Oct-2020 22:30:58.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Oct-2020 22:30:58.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|igorcooli-Aspire-A515-52G
+05-Oct-2020 22:30:58.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Oct-2020 22:30:58.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Oct-2020 22:30:58.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Oct-2020 22:30:58.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Oct-2020 22:30:58.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+05-Oct-2020 22:30:58.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+05-Oct-2020 22:30:58.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/temp
+05-Oct-2020 22:30:58.701 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Oct-2020 22:30:58.809 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 22:30:58.834 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Oct-2020 22:30:58.889 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1044 ms
+05-Oct-2020 22:30:59.071 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Oct-2020 22:30:59.071 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.58
+05-Oct-2020 22:30:59.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/host-manager]
+05-Oct-2020 22:30:59.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/host-manager] has finished in [494] ms
+05-Oct-2020 22:30:59.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/ROOT]
+05-Oct-2020 22:30:59.637 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/ROOT] has finished in [43] ms
+05-Oct-2020 22:30:59.637 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/examples]
+05-Oct-2020 22:31:00.092 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/examples] has finished in [455] ms
+05-Oct-2020 22:31:00.093 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/manager]
+05-Oct-2020 22:31:00.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/manager] has finished in [49] ms
+05-Oct-2020 22:31:00.143 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/docs]
+05-Oct-2020 22:31:00.180 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/docs] has finished in [37] ms
+05-Oct-2020 22:31:00.188 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Oct-2020 22:31:00.221 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1331 ms
+05-Oct-2020 22:31:13.770 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+05-Oct-2020 22:31:13.785 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+05-Oct-2020 22:31:18.385 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Oct-2020 22:31:18.464 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+05-Oct-2020 22:31:18.512 INFO [http-nio-8080-exec-4] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+05-Oct-2020 22:31:18.676 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+05-Oct-2020 22:31:19.394 INFO [http-nio-8080-exec-4] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+05-Oct-2020 22:31:19.805 INFO [http-nio-8080-exec-4] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+05-Oct-2020 22:31:19.878 WARN [http-nio-8080-exec-4] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+05-Oct-2020 22:31:20.013 INFO [weld-worker-4] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+05-Oct-2020 22:31:20.208 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+05-Oct-2020 22:31:21.063 INFO [http-nio-8080-exec-4] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+05-Oct-2020 22:31:21.095 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+05-Oct-2020 22:31:21.203 INFO [http-nio-8080-exec-4] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+05-Oct-2020 22:31:21.571 INFO [http-nio-8080-exec-4] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+05-Oct-2020 22:31:22.165 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.166 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.167 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.168 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.168 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.169 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.169 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.170 WARNING [http-nio-8080-exec-4] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+05-Oct-2020 22:31:22.859 INFO [http-nio-8080-exec-4] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+05-Oct-2020 22:31:22.921 INFO [http-nio-8080-exec-4] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+05-Oct-2020 22:31:22.926 INFO [http-nio-8080-exec-4] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+05-Oct-2020 22:31:22.926 INFO [http-nio-8080-exec-4] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+05-Oct-2020 22:31:22.927 INFO [http-nio-8080-exec-4] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+05-Oct-2020 22:31:23.003 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [9,217] ms
+05-Oct-2020 22:31:23.011 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+05-Oct-2020 22:32:05.539 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: BibliotecaLPWSD]
+05-Oct-2020 22:32:05.687 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.4.2.Final}
+05-Oct-2020 22:32:05.972 INFO [http-nio-8080-exec-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+05-Oct-2020 22:32:06.287 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+05-Oct-2020 22:32:06.297 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BibliotecaLPWSD]
+05-Oct-2020 22:32:06.297 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+05-Oct-2020 22:32:06.298 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+05-Oct-2020 22:32:06.303 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+05-Oct-2020 22:32:06.927 INFO [http-nio-8080-exec-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Oct-2020 22:32:07.676 INFO [http-nio-8080-exec-1] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+05-Oct-2020 22:32:08.740 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]

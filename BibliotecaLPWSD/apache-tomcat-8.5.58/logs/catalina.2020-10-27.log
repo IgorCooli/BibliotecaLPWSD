@@ -1,0 +1,658 @@
+27-Oct-2020 20:06:30.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.58
+27-Oct-2020 20:06:30.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 21:45:33 UTC
+27-Oct-2020 20:06:30.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.58.0
+27-Oct-2020 20:06:30.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Oct-2020 20:06:30.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-48-generic
+27-Oct-2020 20:06:30.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 20:06:30.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+27-Oct-2020 20:06:30.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+27-Oct-2020 20:06:30.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+27-Oct-2020 20:06:30.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:06:30.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:06:30.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 20:06:30.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 20:06:30.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 20:06:30.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/logging.properties
+27-Oct-2020 20:06:30.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 20:06:30.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|igorcooli-Aspire-A515-52G
+27-Oct-2020 20:06:30.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 20:06:30.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 20:06:30.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Oct-2020 20:06:30.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 20:06:30.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:06:30.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:06:30.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/temp
+27-Oct-2020 20:06:30.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+27-Oct-2020 20:06:30.692 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:06:30.729 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Oct-2020 20:06:30.752 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 683 ms
+27-Oct-2020 20:06:30.881 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 20:06:30.882 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.58
+27-Oct-2020 20:06:30.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+27-Oct-2020 20:06:35.407 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 20:06:35.462 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+27-Oct-2020 20:06:35.487 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+27-Oct-2020 20:06:35.644 INFO [localhost-startStop-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+27-Oct-2020 20:06:36.193 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2020 20:06:36.436 INFO [localhost-startStop-1] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+27-Oct-2020 20:06:36.479 WARN [localhost-startStop-1] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+27-Oct-2020 20:06:36.612 INFO [weld-worker-4] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+27-Oct-2020 20:06:36.711 INFO [localhost-startStop-1] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+27-Oct-2020 20:06:37.257 INFO [localhost-startStop-1] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+27-Oct-2020 20:06:37.274 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+27-Oct-2020 20:06:37.323 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+27-Oct-2020 20:06:37.535 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+27-Oct-2020 20:06:37.909 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.910 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.910 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.911 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.911 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.911 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.911 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:37.911 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:38.502 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+27-Oct-2020 20:06:38.564 INFO [localhost-startStop-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+27-Oct-2020 20:06:38.575 INFO [localhost-startStop-1] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+27-Oct-2020 20:06:38.576 INFO [localhost-startStop-1] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+27-Oct-2020 20:06:38.577 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+27-Oct-2020 20:06:38.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [7,811] ms
+27-Oct-2020 20:06:38.705 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/host-manager]
+27-Oct-2020 20:06:38.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/host-manager] has finished in [46] ms
+27-Oct-2020 20:06:38.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/examples]
+27-Oct-2020 20:06:39.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/examples] has finished in [428] ms
+27-Oct-2020 20:06:39.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/manager]
+27-Oct-2020 20:06:39.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/manager] has finished in [23] ms
+27-Oct-2020 20:06:39.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/docs]
+27-Oct-2020 20:06:39.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/docs] has finished in [16] ms
+27-Oct-2020 20:06:39.228 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:06:39.248 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8495 ms
+27-Oct-2020 20:06:44.498 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+27-Oct-2020 20:06:44.528 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+27-Oct-2020 20:06:46.793 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 20:06:46.830 INFO [http-nio-8080-exec-9] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+27-Oct-2020 20:06:46.855 INFO [http-nio-8080-exec-9] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+27-Oct-2020 20:06:46.912 INFO [http-nio-8080-exec-9] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+27-Oct-2020 20:06:47.295 INFO [http-nio-8080-exec-9] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2020 20:06:47.510 INFO [http-nio-8080-exec-9] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+27-Oct-2020 20:06:47.546 WARN [http-nio-8080-exec-9] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+27-Oct-2020 20:06:47.663 INFO [weld-worker-2] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+27-Oct-2020 20:06:47.730 INFO [http-nio-8080-exec-9] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+27-Oct-2020 20:06:48.129 INFO [http-nio-8080-exec-9] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+27-Oct-2020 20:06:48.144 INFO [http-nio-8080-exec-9] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+27-Oct-2020 20:06:48.185 INFO [http-nio-8080-exec-9] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+27-Oct-2020 20:06:48.293 INFO [http-nio-8080-exec-9] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+27-Oct-2020 20:06:48.524 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.524 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.525 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.525 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.525 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.525 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.525 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.526 WARNING [http-nio-8080-exec-9] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:06:48.963 INFO [http-nio-8080-exec-9] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+27-Oct-2020 20:06:48.999 INFO [http-nio-8080-exec-9] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+27-Oct-2020 20:06:49.004 INFO [http-nio-8080-exec-9] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+27-Oct-2020 20:06:49.004 INFO [http-nio-8080-exec-9] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+27-Oct-2020 20:06:49.004 INFO [http-nio-8080-exec-9] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+27-Oct-2020 20:06:49.063 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [4,535] ms
+27-Oct-2020 20:06:49.075 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+27-Oct-2020 20:09:31.906 INFO [http-nio-8080-exec-16] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: BibliotecaLPWSD]
+27-Oct-2020 20:09:31.977 INFO [http-nio-8080-exec-16] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.4.2.Final}
+27-Oct-2020 20:09:32.132 INFO [http-nio-8080-exec-16] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+27-Oct-2020 20:09:32.294 WARN [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27-Oct-2020 20:09:32.299 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BibliotecaLPWSD]
+27-Oct-2020 20:09:32.300 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+27-Oct-2020 20:09:32.300 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+27-Oct-2020 20:09:32.303 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Oct-2020 20:09:33.046 INFO [http-nio-8080-exec-16] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+27-Oct-2020 20:09:33.367 INFO [http-nio-8080-exec-16] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+27-Oct-2020 20:09:34.175 INFO [http-nio-8080-exec-16] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2020 20:23:31.697 WARN [http-nio-8080-exec-13] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 08S01
+27-Oct-2020 20:23:31.697 ERROR [http-nio-8080-exec-13] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Communications link failure
+
+The last packet successfully received from the server was 799.654 milliseconds ago.  The last packet sent successfully to the server was 10 milliseconds ago.
+27-Oct-2020 20:23:31.701 WARNING [http-nio-8080-exec-13] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Livros!
+27-Oct-2020 20:23:33.073 WARN [Hibernate Connection Pool Validation Thread] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:23:33.073 ERROR [Hibernate Connection Pool Validation Thread] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:23:33.517 WARN [http-nio-8080-exec-19] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:23:33.517 ERROR [http-nio-8080-exec-19] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:23:33.518 WARNING [http-nio-8080-exec-19] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Livros!
+27-Oct-2020 20:23:34.222 WARN [http-nio-8080-exec-14] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:23:34.222 ERROR [http-nio-8080-exec-14] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:23:34.223 WARNING [http-nio-8080-exec-14] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Editoras!
+27-Oct-2020 20:23:35.492 WARN [http-nio-8080-exec-16] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:23:35.493 ERROR [http-nio-8080-exec-16] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:23:35.493 WARNING [http-nio-8080-exec-16] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Autors!
+27-Oct-2020 20:23:58.190 WARNING [http-nio-8080-exec-17] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+27-Oct-2020 20:23:58.191 WARNING [http-nio-8080-exec-17] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id3' because the UIComponent cannot be found
+27-Oct-2020 20:23:58.191 WARNING [http-nio-8080-exec-17] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id4' because the UIComponent cannot be found
+27-Oct-2020 20:23:58.191 WARNING [http-nio-8080-exec-17] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id5' because the UIComponent cannot be found
+27-Oct-2020 20:23:58.229 WARNING [http-nio-8080-exec-15] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id8' because the UIComponent cannot be found
+27-Oct-2020 20:23:58.229 WARNING [http-nio-8080-exec-15] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id9' because the UIComponent cannot be found
+27-Oct-2020 20:23:58.229 WARNING [http-nio-8080-exec-15] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id11' because the UIComponent cannot be found
+27-Oct-2020 20:25:18.767 WARN [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:25:18.767 ERROR [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:25:18.768 WARNING [http-nio-8080-exec-20] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Emprestimos!
+27-Oct-2020 20:25:23.118 WARN [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:25:23.118 ERROR [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:25:23.119 WARNING [http-nio-8080-exec-20] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Reservas!
+27-Oct-2020 20:25:23.138 WARN [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:25:23.138 ERROR [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:25:23.138 WARNING [http-nio-8080-exec-20] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Emprestimos!
+27-Oct-2020 20:25:23.149 WARN [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:25:23.149 ERROR [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:25:23.149 WARNING [http-nio-8080-exec-20] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Assuntos!
+27-Oct-2020 20:25:23.151 SEVERE [http-nio-8080-exec-20] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/dashboard.xhtml]
+	org.jboss.weld.exceptions.WeldException: WELD-000049: Unable to invoke public void br.cesjf.bibliotecalpwsd.bean.DashboardBean.init() on br.cesjf.bibliotecalpwsd.bean.DashboardBean@57f356c8
+		at org.jboss.weld.injection.producer.DefaultLifecycleCallbackInvoker.invokeMethods(DefaultLifecycleCallbackInvoker.java:85)
+		at org.jboss.weld.injection.producer.DefaultLifecycleCallbackInvoker.postConstruct(DefaultLifecycleCallbackInvoker.java:66)
+		at org.jboss.weld.injection.producer.BasicInjectionTarget.postConstruct(BasicInjectionTarget.java:122)
+		at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:164)
+		at org.jboss.weld.util.bean.IsolatedForwardingBean.create(IsolatedForwardingBean.java:45)
+		at org.omnifaces.cdi.BeanStorage$Bean.<init>(BeanStorage.java:118)
+		at org.omnifaces.cdi.BeanStorage.createBean(BeanStorage.java:65)
+		at org.omnifaces.cdi.viewscope.ViewScopeManager.createBean(ViewScopeManager.java:114)
+		at org.omnifaces.cdi.viewscope.ViewScopeManager$Proxy$_$$_WeldClientProxy.createBean(Unknown Source)
+		at org.omnifaces.cdi.viewscope.ViewScopeContext.get(ViewScopeContext.java:91)
+		at org.jboss.weld.contexts.PassivatingContextWrapper$AbstractPassivatingContextWrapper.get(PassivatingContextWrapper.java:84)
+		at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+		at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+		at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
+		at org.jboss.weld.module.web.el.AbstractWeldELResolver.lookup(AbstractWeldELResolver.java:107)
+		at org.jboss.weld.module.web.el.AbstractWeldELResolver.getValue(AbstractWeldELResolver.java:90)
+		at org.jboss.weld.environment.servlet.util.ForwardingELResolver.getValue(ForwardingELResolver.java:49)
+		at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:62)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:94)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:137)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+		at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at org.primefaces.component.barchart.BarChartBase.getModel(BarChartBase.java:66)
+		at org.primefaces.component.barchart.BarChart.getModel(BarChart.java:38)
+		at org.primefaces.component.barchart.BarChartRenderer.encodeScript(BarChartRenderer.java:55)
+		at org.primefaces.component.barchart.BarChartRenderer.encodeEnd(BarChartRenderer.java:46)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+		at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:304)
+		at com.sun.faces.renderkit.html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:114)
+		at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+		at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.omnifaces.filter.GzipResponseFilter.doFilter(GzipResponseFilter.java:173)
+		at org.omnifaces.filter.HttpFilter.doFilter(HttpFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:111)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at com.github.adminfaces.template.session.AdminFilter.doFilter(AdminFilter.java:145)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.jboss.weld.injection.producer.DefaultLifecycleCallbackInvoker.invokeMethods(DefaultLifecycleCallbackInvoker.java:83)
+		... 79 more
+	Caused by: java.lang.NullPointerException
+		at br.cesjf.bibliotecalpwsd.bean.DashboardBean.criarLivrosReservados(DashboardBean.java:122)
+		at br.cesjf.bibliotecalpwsd.bean.DashboardBean.init(DashboardBean.java:66)
+		... 84 more
+27-Oct-2020 20:25:23.154 WARNING [http-nio-8080-exec-20] com.github.adminfaces.template.exception.CustomExceptionHandler.goToErrorPage 
+	org.jboss.weld.exceptions.WeldException: WELD-000049: Unable to invoke public void br.cesjf.bibliotecalpwsd.bean.DashboardBean.init() on br.cesjf.bibliotecalpwsd.bean.DashboardBean@57f356c8
+		at org.jboss.weld.injection.producer.DefaultLifecycleCallbackInvoker.invokeMethods(DefaultLifecycleCallbackInvoker.java:85)
+		at org.jboss.weld.injection.producer.DefaultLifecycleCallbackInvoker.postConstruct(DefaultLifecycleCallbackInvoker.java:66)
+		at org.jboss.weld.injection.producer.BasicInjectionTarget.postConstruct(BasicInjectionTarget.java:122)
+		at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:164)
+		at org.jboss.weld.util.bean.IsolatedForwardingBean.create(IsolatedForwardingBean.java:45)
+		at org.omnifaces.cdi.BeanStorage$Bean.<init>(BeanStorage.java:118)
+		at org.omnifaces.cdi.BeanStorage.createBean(BeanStorage.java:65)
+		at org.omnifaces.cdi.viewscope.ViewScopeManager.createBean(ViewScopeManager.java:114)
+		at org.omnifaces.cdi.viewscope.ViewScopeManager$Proxy$_$$_WeldClientProxy.createBean(Unknown Source)
+		at org.omnifaces.cdi.viewscope.ViewScopeContext.get(ViewScopeContext.java:91)
+		at org.jboss.weld.contexts.PassivatingContextWrapper$AbstractPassivatingContextWrapper.get(PassivatingContextWrapper.java:84)
+		at org.jboss.weld.bean.ContextualInstanceStrategy$DefaultContextualInstanceStrategy.get(ContextualInstanceStrategy.java:100)
+		at org.jboss.weld.bean.ContextualInstance.get(ContextualInstance.java:50)
+		at org.jboss.weld.manager.BeanManagerImpl.getReference(BeanManagerImpl.java:694)
+		at org.jboss.weld.module.web.el.AbstractWeldELResolver.lookup(AbstractWeldELResolver.java:107)
+		at org.jboss.weld.module.web.el.AbstractWeldELResolver.getValue(AbstractWeldELResolver.java:90)
+		at org.jboss.weld.environment.servlet.util.ForwardingELResolver.getValue(ForwardingELResolver.java:49)
+		at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:62)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:94)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:137)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:190)
+		at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at org.primefaces.component.barchart.BarChartBase.getModel(BarChartBase.java:66)
+		at org.primefaces.component.barchart.BarChart.getModel(BarChart.java:38)
+		at org.primefaces.component.barchart.BarChartRenderer.encodeScript(BarChartRenderer.java:55)
+		at org.primefaces.component.barchart.BarChartRenderer.encodeEnd(BarChartRenderer.java:46)
+		at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:920)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1863)
+		at javax.faces.render.Renderer.encodeChildren(Renderer.java:176)
+		at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+		at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:304)
+		at com.sun.faces.renderkit.html_basic.GroupRenderer.encodeChildren(GroupRenderer.java:114)
+		at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:890)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1856)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:134)
+		at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+		at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.omnifaces.filter.GzipResponseFilter.doFilter(GzipResponseFilter.java:173)
+		at org.omnifaces.filter.HttpFilter.doFilter(HttpFilter.java:108)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.primefaces.webapp.filter.FileUploadFilter.doFilter(FileUploadFilter.java:111)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at com.github.adminfaces.template.session.AdminFilter.doFilter(AdminFilter.java:145)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.jboss.weld.injection.producer.DefaultLifecycleCallbackInvoker.invokeMethods(DefaultLifecycleCallbackInvoker.java:83)
+		... 79 more
+	Caused by: java.lang.NullPointerException
+		at br.cesjf.bibliotecalpwsd.bean.DashboardBean.criarLivrosReservados(DashboardBean.java:122)
+		at br.cesjf.bibliotecalpwsd.bean.DashboardBean.init(DashboardBean.java:66)
+		... 84 more
+27-Oct-2020 20:25:25.610 WARN [http-nio-8080-exec-14] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:25:25.610 ERROR [http-nio-8080-exec-14] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:25:25.611 WARNING [http-nio-8080-exec-14] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Emprestimos!
+27-Oct-2020 20:50:07.007 WARN [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1049, SQLState: 42000
+27-Oct-2020 20:50:07.007 ERROR [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Unknown database 'BibliotecaLPWSD'
+27-Oct-2020 20:50:07.007 WARNING [http-nio-8080-exec-20] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Emprestimos!
+27-Oct-2020 20:53:37.955 INFO [http-nio-8080-exec-20] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [HTTP/1.00x0a...]
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:569)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:503)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 20:53:45.970 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 20:53:45.971 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:53:45.977 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 20:53:46.082 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 20:53:46.082 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/java.lang.Object.wait(Native Method)
+ java.base@11.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 20:53:46.083 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.8/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 20:53:46.083 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20fc5dd0]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(168911911<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 20:53:46.084 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20fc5dd0]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(2020658387<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 20:53:46.084 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20fc5dd0]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(853752981<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 20:53:46.084 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20fc5dd0]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(1890842052<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 20:53:46.084 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@20fc5dd0]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(1895995305<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 20:53:46.101 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:53:46.102 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:55:08.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.58
+27-Oct-2020 20:55:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 10 2020 21:45:33 UTC
+27-Oct-2020 20:55:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.58.0
+27-Oct-2020 20:55:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Oct-2020 20:55:08.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-48-generic
+27-Oct-2020 20:55:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2020 20:55:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+27-Oct-2020 20:55:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+27-Oct-2020 20:55:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+27-Oct-2020 20:55:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:55:08.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:55:08.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2020 20:55:08.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2020 20:55:08.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2020 20:55:08.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/logging.properties
+27-Oct-2020 20:55:08.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2020 20:55:08.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|igorcooli-Aspire-A515-52G
+27-Oct-2020 20:55:08.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2020 20:55:08.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2020 20:55:08.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Oct-2020 20:55:08.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Oct-2020 20:55:08.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:55:08.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58
+27-Oct-2020 20:55:08.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/temp
+27-Oct-2020 20:55:08.011 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+27-Oct-2020 20:55:08.094 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:55:08.111 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Oct-2020 20:55:08.132 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 619 ms
+27-Oct-2020 20:55:08.202 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Oct-2020 20:55:08.202 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.58
+27-Oct-2020 20:55:08.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+27-Oct-2020 20:55:12.375 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 20:55:12.470 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+27-Oct-2020 20:55:12.495 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+27-Oct-2020 20:55:12.633 INFO [localhost-startStop-1] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+27-Oct-2020 20:55:13.113 INFO [localhost-startStop-1] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2020 20:55:13.340 INFO [localhost-startStop-1] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+27-Oct-2020 20:55:13.423 WARN [localhost-startStop-1] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+27-Oct-2020 20:55:13.554 INFO [weld-worker-1] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+27-Oct-2020 20:55:13.681 INFO [localhost-startStop-1] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+27-Oct-2020 20:55:14.204 INFO [localhost-startStop-1] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+27-Oct-2020 20:55:14.225 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+27-Oct-2020 20:55:14.275 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+27-Oct-2020 20:55:14.517 INFO [localhost-startStop-1] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+27-Oct-2020 20:55:14.947 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.948 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.948 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.948 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.948 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.948 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.949 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:14.949 WARNING [localhost-startStop-1] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:15.513 INFO [localhost-startStop-1] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+27-Oct-2020 20:55:15.585 INFO [localhost-startStop-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+27-Oct-2020 20:55:15.594 INFO [localhost-startStop-1] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+27-Oct-2020 20:55:15.594 INFO [localhost-startStop-1] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+27-Oct-2020 20:55:15.595 INFO [localhost-startStop-1] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+27-Oct-2020 20:55:15.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [7,684] ms
+27-Oct-2020 20:55:15.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/host-manager]
+27-Oct-2020 20:55:15.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/host-manager] has finished in [39] ms
+27-Oct-2020 20:55:15.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/examples]
+27-Oct-2020 20:55:16.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/examples] has finished in [201] ms
+27-Oct-2020 20:55:16.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/manager]
+27-Oct-2020 20:55:16.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/manager] has finished in [25] ms
+27-Oct-2020 20:55:16.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/docs]
+27-Oct-2020 20:55:16.183 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/webapps/docs] has finished in [17] ms
+27-Oct-2020 20:55:16.188 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 20:55:16.215 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8082 ms
+27-Oct-2020 20:55:17.969 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+27-Oct-2020 20:55:18.001 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+27-Oct-2020 20:55:20.300 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 20:55:20.331 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+27-Oct-2020 20:55:20.347 INFO [http-nio-8080-exec-2] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+27-Oct-2020 20:55:20.385 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+27-Oct-2020 20:55:20.640 INFO [http-nio-8080-exec-2] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2020 20:55:20.783 INFO [http-nio-8080-exec-2] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+27-Oct-2020 20:55:20.814 WARN [http-nio-8080-exec-2] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+27-Oct-2020 20:55:20.863 INFO [weld-worker-4] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+27-Oct-2020 20:55:20.926 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+27-Oct-2020 20:55:21.241 INFO [http-nio-8080-exec-2] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+27-Oct-2020 20:55:21.255 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+27-Oct-2020 20:55:21.290 INFO [http-nio-8080-exec-2] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+27-Oct-2020 20:55:21.394 INFO [http-nio-8080-exec-2] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.651 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:21.652 WARNING [http-nio-8080-exec-2] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 20:55:22.024 INFO [http-nio-8080-exec-2] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+27-Oct-2020 20:55:22.066 INFO [http-nio-8080-exec-2] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+27-Oct-2020 20:55:22.071 INFO [http-nio-8080-exec-2] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+27-Oct-2020 20:55:22.072 INFO [http-nio-8080-exec-2] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+27-Oct-2020 20:55:22.072 INFO [http-nio-8080-exec-2] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+27-Oct-2020 20:55:22.131 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [4,130] ms
+27-Oct-2020 20:55:22.138 INFO [http-nio-8080-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+27-Oct-2020 20:55:30.870 INFO [http-nio-8080-exec-13] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: BibliotecaLPWSD]
+27-Oct-2020 20:55:30.953 INFO [http-nio-8080-exec-13] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.4.2.Final}
+27-Oct-2020 20:55:31.147 INFO [http-nio-8080-exec-13] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+27-Oct-2020 20:55:31.408 WARN [http-nio-8080-exec-13] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27-Oct-2020 20:55:31.414 INFO [http-nio-8080-exec-13] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BibliotecaLPWSD]
+27-Oct-2020 20:55:31.415 INFO [http-nio-8080-exec-13] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+27-Oct-2020 20:55:31.415 INFO [http-nio-8080-exec-13] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+27-Oct-2020 20:55:31.418 INFO [http-nio-8080-exec-13] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Oct-2020 20:55:31.814 INFO [http-nio-8080-exec-13] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+27-Oct-2020 20:55:32.152 INFO [http-nio-8080-exec-13] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+27-Oct-2020 20:55:32.863 INFO [http-nio-8080-exec-13] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2020 20:55:33.873 WARNING [http-nio-8080-exec-9] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+27-Oct-2020 20:55:33.874 WARNING [http-nio-8080-exec-9] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id3' because the UIComponent cannot be found
+27-Oct-2020 20:55:33.874 WARNING [http-nio-8080-exec-9] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id4' because the UIComponent cannot be found
+27-Oct-2020 20:55:33.875 WARNING [http-nio-8080-exec-9] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id5' because the UIComponent cannot be found
+27-Oct-2020 20:55:33.993 WARNING [http-nio-8080-exec-8] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id8' because the UIComponent cannot be found
+27-Oct-2020 20:55:33.994 WARNING [http-nio-8080-exec-8] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id9' because the UIComponent cannot be found
+27-Oct-2020 20:55:33.994 WARNING [http-nio-8080-exec-8] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id11' because the UIComponent cannot be found
+27-Oct-2020 20:55:59.138 INFO [http-nio-8080-exec-1] br.cesjf.bibliotecalpwsd.util.Message.logMessage Editora salvo(a) com sucesso!
+27-Oct-2020 20:55:59.176 WARNING [http-nio-8080-exec-1] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+27-Oct-2020 20:55:59.176 WARNING [http-nio-8080-exec-1] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id3' because the UIComponent cannot be found
+27-Oct-2020 20:55:59.176 WARNING [http-nio-8080-exec-1] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id4' because the UIComponent cannot be found
+27-Oct-2020 20:55:59.176 WARNING [http-nio-8080-exec-1] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id5' because the UIComponent cannot be found
+27-Oct-2020 21:49:17.226 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 21:49:17.227 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/java.lang.Object.wait(Native Method)
+ java.base@11.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 21:49:17.227 WARNING [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 21:49:17.228 SEVERE [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4c9f7932]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(458474712<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 21:49:17.228 SEVERE [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4c9f7932]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(64901831<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 21:49:17.734 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+27-Oct-2020 21:49:17.755 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+27-Oct-2020 21:49:20.339 INFO [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 21:49:20.369 INFO [http-nio-8080-exec-20] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+27-Oct-2020 21:49:20.394 INFO [http-nio-8080-exec-20] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+27-Oct-2020 21:49:20.444 INFO [http-nio-8080-exec-20] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+27-Oct-2020 21:49:20.756 INFO [http-nio-8080-exec-20] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2020 21:49:20.911 INFO [http-nio-8080-exec-20] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+27-Oct-2020 21:49:20.948 WARN [http-nio-8080-exec-20] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+27-Oct-2020 21:49:21.007 INFO [weld-worker-2] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+27-Oct-2020 21:49:21.111 INFO [http-nio-8080-exec-20] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+27-Oct-2020 21:49:21.566 INFO [http-nio-8080-exec-20] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+27-Oct-2020 21:49:21.582 INFO [http-nio-8080-exec-20] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+27-Oct-2020 21:49:21.617 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1030)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 21:49:21.633 INFO [http-nio-8080-exec-20] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+27-Oct-2020 21:49:21.736 INFO [http-nio-8080-exec-20] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+27-Oct-2020 21:49:21.948 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.949 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.949 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.949 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.949 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.950 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.950 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:21.950 WARNING [http-nio-8080-exec-20] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 21:49:22.306 INFO [http-nio-8080-exec-20] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+27-Oct-2020 21:49:22.361 INFO [http-nio-8080-exec-20] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+27-Oct-2020 21:49:22.368 INFO [http-nio-8080-exec-20] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+27-Oct-2020 21:49:22.368 INFO [http-nio-8080-exec-20] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+27-Oct-2020 21:49:22.369 INFO [http-nio-8080-exec-20] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+27-Oct-2020 21:49:22.433 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [4,678] ms
+27-Oct-2020 21:49:22.444 INFO [http-nio-8080-exec-11] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+27-Oct-2020 21:49:49.275 INFO [http-nio-8080-exec-21] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: BibliotecaLPWSD]
+27-Oct-2020 21:49:49.344 INFO [http-nio-8080-exec-21] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.4.2.Final}
+27-Oct-2020 21:49:49.479 INFO [http-nio-8080-exec-21] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+27-Oct-2020 21:49:49.605 WARN [http-nio-8080-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+27-Oct-2020 21:49:49.608 INFO [http-nio-8080-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BibliotecaLPWSD]
+27-Oct-2020 21:49:49.609 INFO [http-nio-8080-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+27-Oct-2020 21:49:49.609 INFO [http-nio-8080-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+27-Oct-2020 21:49:49.611 INFO [http-nio-8080-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Oct-2020 21:49:49.820 INFO [http-nio-8080-exec-21] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+27-Oct-2020 21:49:50.111 INFO [http-nio-8080-exec-21] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+27-Oct-2020 21:49:50.657 INFO [http-nio-8080-exec-21] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+27-Oct-2020 21:49:51.616 WARNING [http-nio-8080-exec-23] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+27-Oct-2020 21:49:51.619 WARNING [http-nio-8080-exec-23] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id3' because the UIComponent cannot be found
+27-Oct-2020 21:49:51.619 WARNING [http-nio-8080-exec-23] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id4' because the UIComponent cannot be found
+27-Oct-2020 21:49:51.620 WARNING [http-nio-8080-exec-23] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id5' because the UIComponent cannot be found
+27-Oct-2020 21:49:51.724 WARNING [http-nio-8080-exec-14] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id8' because the UIComponent cannot be found
+27-Oct-2020 21:49:51.725 WARNING [http-nio-8080-exec-14] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id9' because the UIComponent cannot be found
+27-Oct-2020 21:49:51.726 WARNING [http-nio-8080-exec-14] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id11' because the UIComponent cannot be found
+27-Oct-2020 21:55:48.115 WARN [http-nio-8080-exec-25] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1062, SQLState: 23000
+27-Oct-2020 21:55:48.115 ERROR [http-nio-8080-exec-25] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Duplicate entry 'admin' for key 'Usuario.usuario_UNIQUE'
+27-Oct-2020 21:55:48.117 INFO [http-nio-8080-exec-25] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foi possível salvar o(a) Usuario, por não ser é único!
+27-Oct-2020 21:55:48.143 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+27-Oct-2020 21:55:48.143 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id3' because the UIComponent cannot be found
+27-Oct-2020 21:55:48.143 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id4' because the UIComponent cannot be found
+27-Oct-2020 21:55:48.144 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id5' because the UIComponent cannot be found
+27-Oct-2020 21:55:55.238 ERROR [http-nio-8080-exec-28] org.hibernate.AssertionFailure.<init> HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in br.cesjf.bibliotecalpwsd.model.Usuario entry (don't flush the Session after an exception occurs)
+27-Oct-2020 21:55:55.239 WARNING [http-nio-8080-exec-28] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Usuarios!
+27-Oct-2020 21:56:09.811 ERROR [http-nio-8080-exec-24] org.hibernate.AssertionFailure.<init> HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in br.cesjf.bibliotecalpwsd.model.Usuario entry (don't flush the Session after an exception occurs)
+27-Oct-2020 21:56:09.811 WARNING [http-nio-8080-exec-24] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foram encontrados(as) Usuarios!
+27-Oct-2020 21:56:31.933 INFO [http-nio-8080-exec-25] br.cesjf.bibliotecalpwsd.util.Message.logMessage Não foi possível salvar o(a) Usuario!
+27-Oct-2020 21:56:31.951 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+27-Oct-2020 21:56:31.952 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id3' because the UIComponent cannot be found
+27-Oct-2020 21:56:31.952 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id4' because the UIComponent cannot be found
+27-Oct-2020 21:56:31.952 WARNING [http-nio-8080-exec-25] com.sun.faces.application.view.FaceletPartialStateManagementStrategy.saveDynamicActions Unable to save dynamic action with clientId 'j_id5' because the UIComponent cannot be found
+27-Oct-2020 22:13:08.587 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Oct-2020 22:13:08.587 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/java.lang.Object.wait(Native Method)
+ java.base@11.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 22:13:08.588 WARNING [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 22:13:08.589 SEVERE [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d509cb4]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(1218323880<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 22:13:08.589 SEVERE [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d509cb4]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(993001230<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 22:13:08.589 SEVERE [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d509cb4]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(1304156780<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 22:13:08.590 SEVERE [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d509cb4]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(234719760<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 22:13:08.590 SEVERE [http-nio-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7d509cb4]) and a value of type [org.hibernate.internal.SessionImpl] (value [SessionImpl(1240384302<open>)]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2020 22:13:09.100 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+27-Oct-2020 22:13:09.124 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml]
+27-Oct-2020 22:13:09.698 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1030)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+		at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+27-Oct-2020 22:13:11.497 INFO [http-nio-8080-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2020 22:13:11.532 INFO [http-nio-8080-exec-23] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+27-Oct-2020 22:13:11.553 INFO [http-nio-8080-exec-23] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 3.1.1 (Final)
+27-Oct-2020 22:13:11.599 INFO [http-nio-8080-exec-23] org.jboss.weld.environment.deployment.discovery.DiscoveryStrategyFactory.create WELD-ENV-000020: Using jandex for bean discovery
+27-Oct-2020 22:13:11.896 INFO [http-nio-8080-exec-23] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+27-Oct-2020 22:13:12.060 INFO [http-nio-8080-exec-23] org.jboss.weld.event.ExtensionObserverMethodImpl.checkRequiredTypeAnnotations WELD-000411: Observer method [BackedAnnotatedMethod] public org.omnifaces.VetoAnnotatedTypeExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+27-Oct-2020 22:13:12.098 WARN [http-nio-8080-exec-23] org.jboss.weld.bootstrap.events.BeforeBeanDiscoveryImpl.addAnnotatedType WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+27-Oct-2020 22:13:12.153 INFO [weld-worker-6] org.jboss.weld.bootstrap.MissingDependenciesRegistry.handleResourceLoadingException WELD-000119: Not generating any bean definitions from org.omnifaces.cdi.param.RequestParameterProducer because of underlying class loading error: Type javax.validation.ConstraintViolation not found.  If this is unexpected, enable DEBUG logging to see the full error.
+27-Oct-2020 22:13:12.235 INFO [http-nio-8080-exec-23] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+27-Oct-2020 22:13:12.585 INFO [http-nio-8080-exec-23] org.omnifaces.ApplicationInitializer.logOmniFacesVersion Using OmniFaces version 2.1
+27-Oct-2020 22:13:12.598 INFO [http-nio-8080-exec-23] org.jboss.weld.environment.servlet.Listener.contextInitialized WELD-ENV-001006: org.jboss.weld.environment.servlet.EnhancedListener used to initialize Weld
+27-Oct-2020 22:13:12.635 INFO [http-nio-8080-exec-23] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.19 ( 20190425-0832 2aa921d0b225a052be10af9b318fbbd88b3d7cc8) for context ''
+27-Oct-2020 22:13:12.716 INFO [http-nio-8080-exec-23] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+27-Oct-2020 22:13:12.965 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.965 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.966 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.966 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.966 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.966 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.966 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:12.966 WARNING [http-nio-8080-exec-23] com.sun.faces.application.annotation.ConverterConfigHandler.collect @FacesConverter is using both value and forClass, only value will be applied.
+27-Oct-2020 22:13:13.336 INFO [http-nio-8080-exec-23] com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor.<init> Monitoring file:/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/target/BibliotecaLPWSD/WEB-INF/faces-config.xml for modifications
+27-Oct-2020 22:13:13.374 INFO [http-nio-8080-exec-23] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 7.0
+27-Oct-2020 22:13:13.378 INFO [http-nio-8080-exec-23] com.github.adminfaces.template.event.AdminSystemEventListener.processEvent Using Admin Template 1.0.2 and Admin Theme 1.0.2
+27-Oct-2020 22:13:13.378 INFO [http-nio-8080-exec-23] org.primefaces.extensions.application.PostConstructApplicationEventListener.processEvent Running on PrimeFaces Extensions 7.0
+27-Oct-2020 22:13:13.378 INFO [http-nio-8080-exec-23] org.jboss.weld.environment.servlet.EnhancedListener.contextInitialized WELD-ENV-001009: org.jboss.weld.environment.servlet.Listener used for ServletRequest and HttpSession notifications
+27-Oct-2020 22:13:13.428 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/igorcooli/Faculdade/Manutenção/BibliotecaLPWSD/apache-tomcat-8.5.58/conf/Catalina/localhost/ROOT.xml] has finished in [4,305] ms
+27-Oct-2020 22:13:13.434 INFO [http-nio-8080-exec-27] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+27-Oct-2020 22:14:14.697 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2020 22:14:14.697 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 22:14:14.703 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Oct-2020 22:14:14.772 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Oct-2020 22:14:14.773 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
